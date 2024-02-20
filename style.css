@@ -205,7 +205,7 @@ section.sobre .flex {
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
-    box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.253);
+    box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.178);
 }
 
 section.portfolio .flex {
@@ -317,7 +317,7 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #00ff08;
+    border-top: 3px solid #00ff08;
 }
 
 footer .line-footer p i {
