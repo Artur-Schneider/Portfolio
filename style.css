@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: linear-gradient(120deg, #111111, #3f3f3f, #707070);
     background-attachment: fixed;
@@ -48,6 +52,25 @@ h2.titulo {
 
 h2.titulo span {
     color: #00ff08;
+}
+
+span#digit {
+    position: relative;
+}
+
+span#digit::before {
+    content: "";
+    color: #00ff08;
+    animation: palavras 12s infinite;
+}
+
+@keyframes palavras {
+    0%, 45% {
+        content: "IDEIAS EM REALIDADE DIGITAL!";
+    }
+    46%, 100% {
+        content: "IDEIAS DIGITAIS, EM RESULTADOS REAIS!";
+    }
 }
 
 /* ESTILO DO CABEÇALHO */
@@ -90,6 +113,7 @@ header nav.menu-desktop ul li {
 .btn-abrir-menu i {
     color: #00ff08;
     font-size: 45px;
+    cursor: pointer;
 }
 
 .menu-mobile {
