@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(120deg, #111111, #3f3f3f, #707070);
+    background-image: linear-gradient(120deg, #405480, #395DAA, #0050FF);
     background-attachment: fixed;
     height: 100vh;
 }
@@ -32,7 +32,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00ff08;
+    background-color: #f2aa52;
     border-radius: 30px;
     border: 0;
     cursor: pointer;
@@ -40,7 +40,7 @@ body {
 }
 
 button:hover, form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px rgba(0, 255, 8, 0.459);
+    box-shadow: 0px 0px 8px rgba(242, 181, 68, 0.61);
     transform: scale(1.04);
 }
 
@@ -51,16 +51,17 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: #00ff08;
+    color: #f2b544;
 }
 
 span#digit {
     position: relative;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
 }
 
 span#digit::before {
     content: "";
-    color: #00ff08;
+    color: #f2b544;
     animation: palavras 12s infinite;
 }
 
@@ -85,7 +86,7 @@ header > .interface {
 }
 
 header a {
-    color: #8d8d8d;
+    color: rgba(242, 181, 68, 0.925);
     text-decoration: none;
     display: inline-block;
     transition: .15s;
@@ -111,7 +112,7 @@ header nav.menu-desktop ul li {
 
 /* ESTILO DO MENU MOBILE */
 .btn-abrir-menu i {
-    color: #00ff08;
+    color: #f2aa52;
     font-size: 45px;
     cursor: pointer;
 }
@@ -141,7 +142,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i {
-    color: #00ff08;
+    color: #f2aa52;
     font-size: 35px;
 }
 
@@ -158,9 +159,9 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile nav ul li a:hover {
-    background-color: #00ff08;
+    background-color: #f2aa52;
+    font-weight: 600;
     color: black;
-    font-weight: 400;
 }
 
 .overlay-menu {
@@ -176,7 +177,7 @@ header nav.menu-desktop ul li {
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
-    padding: 40px 4%;
+    padding: 40px 4% 80px 4%;
 }
 
 section.topo-do-site .flex {
@@ -189,10 +190,6 @@ section.topo-do-site .flex {
     color: white;
     font-size: 42px;
     line-height: 40px;
-}
-
-.topo-do-site .txt-topo-site h1 span {
-    color: #00ff08;
 }
 
 .topo-do-site .txt-topo-site p {
@@ -217,7 +214,10 @@ section.topo-do-site .flex {
 
 /* ESTILO DAS ESPECIALIDADES */
 section.especialidades {
-    padding: 60px 4%;
+    padding: 80px 4%;
+    background-image: linear-gradient(to right, #495b85, #4e659b, #5c79b8);
+    background-attachment: fixed;
+    box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.205);
 }
 
 section.especialidades .flex {
@@ -240,7 +240,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box i {
     font-size: 68px;
-    color: #00ff08;
+    color: #f2aa52;
 }
 
 .especialidades .especialidades-box h3 {
@@ -255,6 +255,9 @@ section.especialidades .flex {
 /* ESTILO SOBRE */
 section.sobre {
     padding: 80px 4%;
+    background-image: linear-gradient(160deg, #021373, #202d73, #b4ced9 115%);
+    background-attachment: absolute;
+    box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.205);
 }
 
 section.sobre .flex {
@@ -273,7 +276,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: #00ff08;
+    color: #f2b544;
     display: block;
 }
 
@@ -287,7 +290,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #00ff08;
+    background-color: #f2b544;
     font-size: 22px;
     cursor: pointer;
     margin: 0px 6px;
@@ -297,7 +300,8 @@ section.sobre .flex {
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
-    box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.178);
+    box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.308);
+    background-image: linear-gradient(to right, #566c9b, #5E7BB9, #6E8FD7);
 }
 
 section.portfolio .flex {
@@ -309,7 +313,6 @@ section.portfolio .flex {
 .img-port {
     width: 360px;
     height: 460px;
-    background-color: #00ff08;
     background-size: cover;
     background-position: 100% 0%;
     transition: 7s;
@@ -347,6 +350,8 @@ section.portfolio .flex {
 /* ESTILO DO FORMULÁRIO */
 section.formulario {
     padding: 80px 4%;
+    background-image: linear-gradient(120deg, #3b4e77, #335399, #003ab8);
+    box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.308);
 }
 
 form {
@@ -361,7 +366,7 @@ form {
 
 form input, form textarea {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: #1d212ce3;
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -387,7 +392,7 @@ form .btn-enviar {
 form .btn-enviar input {
     width: 120px;
     padding: 15px;
-    background-color: #00ff08;
+    background-color: #f2aa52;
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -397,7 +402,7 @@ form .btn-enviar input {
 /* ESTILO DO FOOTER */
 footer {
     padding: 30px 4%;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(0, 0, 31);
     box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.151);
 }
 
@@ -410,11 +415,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 3px solid #00ff08;
+    border-top: 3px solid #f2aa52;
 }
 
 footer .line-footer p i {
-    color: #00ff08;
+    color: #f2b544;
     font-size: 22px;
 }
 
