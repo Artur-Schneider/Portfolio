@@ -176,6 +176,10 @@ header nav.menu-desktop ul li {
 }
 
 /* ESTILO DO TOPO DO SITE */
+.logo img {
+    padding-top: 7px;
+}
+
 section.topo-do-site {
     padding: 40px 4% 80px 4%;
 }
@@ -199,6 +203,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .img-topo-site img {
+    width: 455px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -263,6 +268,12 @@ section.sobre {
 section.sobre .flex {
     align-items: center;
     gap: 60px;
+}
+
+.sobre .img-sobre img {
+    height: 450px;
+    border: 3px solid rgba(242, 181, 69, 0.89);
+    border-radius: 15px;
 }
 
 .sobre .txt-sobre {
@@ -510,6 +521,10 @@ footer .line-footer p a {
     }
 
     /* FOOTER */
+    .logo-footer img {
+        padding-bottom: 20px;
+    }
+    
     footer .flex {
         flex-direction: column;
     }
