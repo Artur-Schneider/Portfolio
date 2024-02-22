@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(120deg, #405480, #395DAA, #0050FF);
+    background-image: linear-gradient(160deg, #405480, #395DAA, #0050FF);
     background-attachment: fixed;
     height: 100vh;
 }
@@ -181,7 +181,7 @@ header nav.menu-desktop ul li {
 }
 
 section.topo-do-site {
-    padding: 40px 4% 80px 4%;
+    padding: 40px 4% 125px 4%;
 }
 
 section.topo-do-site .flex {
@@ -220,7 +220,7 @@ section.topo-do-site .flex {
 /* ESTILO DAS ESPECIALIDADES */
 section.especialidades {
     padding: 80px 4%;
-    background-image: linear-gradient(to right, #495b85, #4e659b, #5c79b8);
+    background-image: linear-gradient(60deg, #495b85, #4e659b, #5c79b8);
     background-attachment: fixed;
     box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.205);
 }
@@ -260,7 +260,7 @@ section.especialidades .flex {
 /* ESTILO SOBRE */
 section.sobre {
     padding: 80px 4%;
-    background-image: linear-gradient(160deg, #021373, #202d73, #b4ced9 115%);
+    background-image: linear-gradient(160deg, #021373, #283475 34%, #b4ced9b4);
     background-attachment: absolute;
     box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.205);
 }
@@ -312,7 +312,7 @@ section.sobre .flex {
 section.portfolio {
     padding: 80px 4%;
     box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.308);
-    background-image: linear-gradient(to right, #566c9b, #5E7BB9, #6E8FD7);
+    background-image: linear-gradient(30deg, #647db4, #5772ac, #546da3);
 }
 
 section.portfolio .flex {
@@ -361,7 +361,7 @@ section.portfolio .flex {
 /* ESTILO DO FORMULÁRIO */
 section.formulario {
     padding: 80px 4%;
-    background-image: linear-gradient(120deg, #3b4e77, #335399, #003ab8);
+    background-image: linear-gradient(165deg, #3b4e77, #395eac, #3b4e77);
     box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.308);
 }
 
