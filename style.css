@@ -248,6 +248,7 @@ section.especialidades .flex {
     border: 0.5px solid rgba(245, 245, 245, 0.103);
     margin-top: 40px;
     transition: .2s;
+    width: 100%;
 }
 
 .especialidades .especialidades-box:hover {
@@ -287,6 +288,12 @@ section.sobre .flex {
 
 .sobre .txt-sobre {
     color: white;
+}
+
+.sobre .txt-sobre p span {
+    color: #ffbc3f;
+    font-weight: 500;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.253);
 }
 
 .sobre .txt-sobre h2 {
